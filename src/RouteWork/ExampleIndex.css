@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 198, 239);
+    font-family: 'Times New Roman', Times, serif;
+}
+/* .mainDiv{
+    height: auto;
+    background-image: url(background.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background: cover;
+} */
+.logo{
+    width: 100%;
+    height: 110px;
+    
+}
+.logo img{
+    display: inline;
+    margin-top: 20px;
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+    float: left;
+}
+.logo ul{
+    float: right;
+}
+.logo ul li{
+    display: inline;
+    float: left;
+    
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: right;
+}
+
+.divarea{
+    width: 100%;
+    height: 3px;
+    background-color: rgb(196, 102, 175);;
+}
+
+
+.home{
+   
+   height: auto;
+   width: 100%; 
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   grid-auto-rows: 500px;
+   grid-gap: 15px; 
+   
+}
+.home h2{
+    position: absolute;
+    font-size: 35px;
+    font-style: italic;
+    margin-left: 40%;
+    margin-top: 10px;
+    font-family:  'cursive ', 'Helvetica Neue', serif;
+    color: rgb(194, 18, 91);
+    text-shadow: 3px 2px rgb(145, 86, 132);
+}
+.homeimg img{
+    position: relative;
+    width: 65%;
+    height: 40vh;
+    margin-top: 100px;
+    margin-left: 20px;
+    border: 5px solid rgb(196, 102, 175);
+    box-shadow: 2px 4px rgb(231, 132, 231);
+    border-radius: 10px;
+    
+}
+.homeimg p{
+    margin-left: 110px;
+    font-size: 20px;
+    color: rgb(139, 6, 111);
+}
+.homeimg button{
+    margin-left: 100px;
+    font-size: 20px;
+    background-color: rgb(223, 83, 190);
+    color: white;
+    border: none;
+    width: 100px;
+    cursor: pointer;
+}
+.homeimg button:hover{
+    background-color: lightpink;
+}
+.about{
+    margin: 40px;
+    padding: auto;
+    width: 100%;
+    height: 70vh;
+}
+.about h2{
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+    margin-top: 10px;
+    font-family:  'cursive ', 'Helvetica Neue', serif;
+    color: darkblue;
+    text-shadow: 3px 2px rgb(102, 91, 201);
+}
+.contact{
+    margin: 40px;
+    padding: auto;
+    width: 100%;
+    height: 70vh;
+}
+.contact h2{
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+    margin-top: 10px;
+    font-family:  'cursive ', 'Helvetica Neue', serif;
+    color: darkblue;
+    text-shadow: 3px 2px rgb(102, 91, 201);
+}
+.contact h4{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    color: rgb(185, 41, 149);
+}
+.contact p{
+    text-align: center;
+    color:black;
+    font-size: 20px;
+}
+.footer{
+    padding:20px;
+    text-align: center;
+    color: rgb(196, 102, 175);
+    height: 5vh;
+}
